@@ -431,8 +431,37 @@
                 </ul>
             </div>
 
+            <div class="footer-subscribe-container">
+                <p class="footer-subscribe-text">Subscribe</p>
+                <form class="footer-subscribe-form">
+                    <label class="footer-subscribe-label">
+                        <input class="footer-subscribe-input" type="email" name="email" placeholder="E-mail"
+                            aria-label="E-mail">
+                    </label>
+                    <button class="footer-subscribe-btn" type="submit">
+                        Subscribe
+                        <svg class="footer-subscribe-icon" width="24" height="24">
+                            <use href="./images/icons.svg#send"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+
         </div>
     </footer>
+
+    <div class="backdrop" id="modal">
+        <div class="modal">
+            <!-- Кнопка закриття модального вікна (хрестик) -->
+            <button class="modal-close-btn" type="button" aria-label="Close modal">
+                <svg class="modal-close-icon" width="8" height="8">
+                    <use href="./images/icons.svg#close"></use>
+                </svg>
+            </button>
+
+            <!-- Тут згодом буде розміщено форму замовлення / контактів -->
+        </div>
+    </div>
 </body>
 
 </html>
